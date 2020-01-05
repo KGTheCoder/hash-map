@@ -13,6 +13,9 @@ public class HM {
       System.out.println("Map size: " + map.size());
       
       print(map);
+      
+      map.put("snake", 32);
+      System.out.print(map.get("crow"));
    }
    
    public static void print(Map<String, Integer> map) {
